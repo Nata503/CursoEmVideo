@@ -1,0 +1,21 @@
+@charset "UTF-8";
+body{
+    overflow: hidden;
+    scrollbar-width: none;
+}
+section#conteudo {
+    width: 1900px;
+    height: 319px;
+    margin: -10px 0px 0px 110px;
+}
+
+iframe#frame-spec {
+    width: 550px;
+    height: 318px;
+    border: none;
+    overflow: hidden;
+    scrollbar-width: none;
+    align-items: right;
+
+}
+

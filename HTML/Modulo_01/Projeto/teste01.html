@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Teste JavaScript</title>
+    <script>
+        function acendeLampada(){
+            document.getElementById("luz").src = "image/lampada-acesa.png";
+            document.body.style.backgroundColor = "#ffffff";
+            document.querySelector("h1").style.color= "#000000";
+        }
+        function apagaLampada(){
+            document.getElementById("luz").src = "image/lampada-apagada.png";
+            document.body.style.backgroundColor = "#000000";
+            document.querySelector("h1").style.color= "#ffffff";
+        }
+        function quebraLampada(){
+            document.getElementById("luz").src = "image/lampada-quebrada.jpg";
+        }
+    </script>
+
+    <style>
+        body {
+            background-color: black;
+        }
+        h1{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Acenda a Lâmpada</h1>
+    <img src="image/lampada-apagada.png" 
+    id = "luz" 
+    onmousemove="acendeLampada()" 
+    onmouseout="apagaLampada()" 
+    onclick="quebraLampada()">
+
+</body>
+</html>

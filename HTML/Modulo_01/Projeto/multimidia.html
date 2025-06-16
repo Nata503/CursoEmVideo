@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Tudo Sobre Google Glass</title>
+    <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="stylesheet" href="./css/media.css">
+</head>
+
+<script src="./js/funcoes.js"></script>
+
+<body>
+
+<div id="interface">
+    <header id="cabecalho">
+      <hgroup>
+        <h1>Google Glass</h1>
+        <h2>A revolução do Google está chegando</h2>
+      </hgroup>
+  
+<img id="icone" src="./image/glass-oculos-preto-peq.png" alt="Oculos preto pequeno">
+
+<nav id="menu">
+  <h1>Menu Principal</h1>
+  <ul>
+
+    <li onmouseover="mudaFoto('image/home.png')" onmouseout="mudaFoto('./image/multimidia.png')"><a href="index.html">Home</a></li>
+
+    <li onmouseover="mudaFoto('image/especificacoes.png')" onmouseout="mudaFoto('./image/multimidia.png')"><a href="specs.html">Especificações</a></li>
+
+    <li onmouseover="mudaFoto('image/fotos.png')" onmouseout="mudaFoto('./image/multimidia.png')"><a href="fotos.html">Fotos</a></li>
+
+    <li onmouseover="mudaFoto('image/multimidia.png')" onmouseout="mudaFoto('./image/multimidia.png')"><a href="multimidia.html">Multimídia</a></li>
+
+    <li onmouseover="mudaFoto('image/contato.png')" onmouseout="mudaFoto('./image/multimidia.png')"><a href="fale-conosco.html">Fale conosco</a></li>
+
+  </ul>
+</nav>
+</header>
+
+<section id="corpo-full">
+  <article>
+    <header class="cabeca-artigo">
+    <hgroup>
+       <h3>Glass > Multimídia</h3>
+       <h2>Sons e Vídeos</h2>
+       <h1>por Gustavo Guanabara</h1>
+       <h3>Atualizado em 01/Maio/2013</h3>
+</hgroup>
+</header>
+
+<div id="tv-radio">
+  <audio id="musica" controls="controls">
+      <source src="./video/2009-lovers-carvings-bibio.mp3" type="audio/mpeg"/>
+  </audio>
+  <video id="filme" controls="controls">
+      <source src="./video/getting-started.mp4" type="video/mp4">
+  </video>
+</div>
+
+</article>
+</section>
+<footer id="rodape">
+    <p>Copyright 2013 - by Gustavo Guanabara </br>
+    <a href="#" target="_blank">Facebook</a> | 
+    <a href="#" target="_blank">Twitter</a></p>
+</footer>
+</div>
+</body>
+</html>
