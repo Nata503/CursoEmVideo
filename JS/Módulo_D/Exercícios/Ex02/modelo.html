@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modelo de Exercício</title>
+    <title>Tabuada</title>
     <link rel="stylesheet" href="./assets/style.css">
 </head>
 <body onload="carregar()">
@@ -13,15 +13,16 @@
 
     <section>
         <div>
-            <h2>Número:
-                <input type="number" name="tabuada"
-                 id="tabuada">
-                 <input type="button" value="tabuada" onclick="tabuada()">
-            </h2>
+            <p>Número:<input type="number" name="num"
+                 id="txtn">
+                 <input type="button" value=" Gerar tabuada" onclick="tabuada()">
+            </p>
         </div>
-
+            
         <div>
-            <textarea name="areaTabuada" id="areaTabuada" cols="5" rows="10"></textarea>
+           <select name="tabuada" id="seltab" size="10">
+           <option value="">Digite um número Acima</option>
+           </select>
         </div>
     </section>
     
